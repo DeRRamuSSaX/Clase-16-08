@@ -1,0 +1,11 @@
+strcmp: sirve para comparar strings, si son iguales devuelve 0, y si se utiliza !strcmp, devuelve uno.
+
+fopen: abre el archivo dentro de ("archivo.txt", "r") con un formato al lado.
+
+fclose: cierra el archivo dentro de (fp).
+
+fgets: 
+
+switch: en vez de hacer un else if todo el tiempo, se puede hacer un switch con case 1: case 2: y asi.
+
+strcat: lee un string.
