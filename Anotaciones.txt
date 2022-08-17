@@ -1,11 +1,27 @@
 strcmp: sirve para comparar strings, si son iguales devuelve 0, y si se utiliza !strcmp, devuelve uno.
 
-fopen: abre el archivo dentro de ("archivo.txt", "r") con un formato al lado.
+fopen: abre el archivo dentro de ("archivo.txt", "r" o "w" o "a") con un formato al lado. El formato r: de read, lee el archivo, el formato w: de write, borra todo el contenido y escribe en el archivo, y el formato a: de append, que agrega a una fila las lineas del archivo.
 
 fclose: cierra el archivo dentro de (fp).
 
-fgets: 
+fgets: lee una linea de un archivo fp, de 1000 caracteres, y las guarda en un array, por ejemplo line, y quedaria asi (line, 1000, fp);
 
 switch: en vez de hacer un else if todo el tiempo, se puede hacer un switch con case 1: case 2: y asi.
 
 strcat: lee un string.
+
+strcmp: compara dos strings y si son iguales da 0 y sino da 1, se puede revertir con !strcmp. quedaria asi strcmp(time, off) == 0.
+
+sscanf: pones los valores < %s %d %s dentro de buffer y esos valores son c, protocol, code y message, y queda algo asi: sscanf(buffer, "< %s %d %s", &c, protocol, &code, message);
+
+fprintf: imprime algo y lo direcciona a un archivo, por ejemplo temp_file, un string de un array, quedaria asi (temp_file, "%s", line).
+
+Tarea: Hacer una trivia, con un archivo.txt con  las preguntas y que te imprima la correcta.
+
+"<" ">": sirven para meter algo de un archivo a otro.
+
+"<<<" ">>>":
+
+|:
+
+man fgets

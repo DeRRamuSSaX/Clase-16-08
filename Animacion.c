@@ -9,7 +9,6 @@ int main(int argc, char const *argv[]) {
     printf("Espera...\n");
     unsleep(1000000/24.0);
     printf("Listo\n");
-    
   }
   return 0;
 }
